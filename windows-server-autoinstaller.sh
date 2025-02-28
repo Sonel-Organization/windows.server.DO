@@ -64,6 +64,12 @@ case $choice in
         iso_link="http://134.199.163.87/win1021H2.img"
         iso_file="windows1021h2.iso"
         ;;
+    7)
+        # Windows Server 2012
+        img_file="windows2012.img"
+        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195443&clcid=0x409&culture=en-us&country=US"
+        iso_file="windows2012.iso"
+        ;;
     *)
         echo "Invalid choice. Exiting."
         exit 1
